@@ -79,24 +79,14 @@
 		<option value="mastercard">Mastercard</option>
 		<option value="amex">American Express</option>
 	</select>
-	<input type="text" name="do"><br/>
+	<br/>
+	<input type="text" name="do">
+	<br/>
 	<button type="button">Add Item</button>
 	<button type="button">Delete Item</button>
 	<button type="button">Update Item</button>
-	<ul>
-	<li>1) ssh into your virtual machine in using the root password</li>	
-	<li>2) set a better root password</li>
-	<li>3) create seperate user accounts for each member of your group check that you can ssh into your new user accouts</li>
-	<li>4) add each member of your group to the sudoers list with unlimited power check that it worked</li>
-	<li>5) disable root logins check that it worked</li>
-	<li>6) set up your credentials for ssh and ssl</li>
-     
-     find and read an overview of credentials, ssl, and ssh for a basic understanding.
-     (for some added security you could disable logins without ssh credentials or
-      only alow logins for specific machines, but that is not needed here)
-
-	</ol>
-	<div class="section">Yum</div>
+	<br/>
+	
 	
 	<div class="section">Code test</div>
 	<p>This is some code. 
@@ -114,9 +104,9 @@
      enable Apache on your virtual machine, automatically on boot and manually.
      load a web page and check that it works (note your VM is only accesable on campus
       so to see it off campus you have to use the WMU VPN)
-2) Investigate the WMU VPN (from Juniper) and install it on your laptop...
-3) Invesitgate how to set the Apache log level and where the logs are
-4) Look for some "good" references and checklists on securing Apache </p>
+	2) Investigate the WMU VPN (from Juniper) and install it on your laptop...
+	3) Invesitgate how to set the Apache log level and where the logs are
+	4) Look for some "good" references and checklists on securing Apache </p>
 		<div class="section">Random Projects</div>
 
 	

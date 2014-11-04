@@ -20,26 +20,12 @@
 
   <li><a href="./">Home</a></li>
 	  
-	<li><a href="/yum.php">Yum</a></li>
+	<li><a href="#">Menu1</a></li>
 
-  <li><a href="/htmlcss.php">Web Developement</a></li>
+  <li><a href="#">Web Developement</a></li>
 
-  <li><a href="/loglevel.php">Log Levels</a></li>
+  <li><a href="#">Log Levels</a></li>
 
-  <li><a href="/security.php">Security</a></li>
-
-  <li><a href="/apache.php">Apache Setup</a></li>
-
-  <li><a href="/centos.php">CentOS SysAdmin</a></li>
-
-  <li><a href="/sirModel/index.html">Sir Model</a></li>
-
-  <li><a href="/jspage.php">JS Info</a></li>
-
-  <li><a href="/phptest.php">PHP</a></li>
-  
-  <li><a href="/phpSir.php">PHP Sir Model</a></li>
-  <li><a href="/rateyourself.php">Team Rater</a></li>
     </ul>
 
 	</div>
