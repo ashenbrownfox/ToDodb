@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+	font: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	background-color: #F2F2F2;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+}
+
+#title
+{
+	color: #A9D0F5;
+	font:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #0B3861;
+	padding: .8em .5em .8em .5em;
+	text-align: center;
+	border-bottom: solid #A9D0F5 2px;
+	border-top: solid #A9D0F5 2px;
+}
+
+.section
+{
+	color: #0B3861;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 10px 0px;
+	font-size: 16px;
+	border-bottom: solid #A9D0F5 1px;
+}
+#main
+{
+	background-color: #FFFFFF
+	width: 969px;
+	max-width: 1260px;
+	min-width: 780px;
+	display: block;
+	background: #FFFFFF;
+	background-attachment: scroll;
+	border: #565656 solid 2px;
+	/**margin: 50px 190px 20px 190px;**/
+	margin: 50px auto 20px auto;
+	/**padding: 10px, 8px;**/ /* top right bottom left*/
+	box-shadow: 5px 5px 5px black; 
+	float: none;
+}
+
+#content
+{
+	padding: 0px 0;
+	margin: 0px 30px 0px 45px;
+	width: 60%;
+}
+#footer
+{
+	color: #A9D0F5;
+	width: 969px;
+	padding: .5em .5em .5em .5em;
+	border-top: 2px solid #A9D0F5;
+	border-bottom: 2px solid #A9D0F5;
+	font: 13px, #FFFGeorgia, "Times New Roman", Times, serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #666;
+	position: relative;
+	clear: both;
+	text-align: center;
+}
