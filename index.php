@@ -71,8 +71,18 @@
 		Apache Server is activated, MySQL is installed on it as well.
 		The development environment is set.
 	</p>
-	<p> So basically we started off by creating a couple users. We granted them sudo permissions by editing that sudo file. The Apache server wasn't set, no webpages could be displayed. So we had to use a package called Yum to install Apache Server. Commands were: sudo yum install httpd, sudo service httpd start. Next we ended up with a picture like <a href="https://i.imgur.com/NLSJR.png">this</a>. Well that was the most basic package and it's all set now.
-	</p>
+	
+	<div class="section">ToDo List</div>
+	<p></p>
+	<select name="todolist" size="6" multiple="multiple">
+		<option value="visa">Visa</option>
+		<option value="mastercard">Mastercard</option>
+		<option value="amex">American Express</option>
+	</select>
+	<input type="text" name="do"><br/>
+	<button type="button">Add Item</button>
+	<button type="button">Delete Item</button>
+	<button type="button">Update Item</button>
 	<ul>
 	<li>1) ssh into your virtual machine in using the root password</li>	
 	<li>2) set a better root password</li>
@@ -87,9 +97,7 @@
 
 	</ol>
 	<div class="section">Yum</div>
-	<p>Yum is a command line, RPM based, package manager for Linux operating systems. It uses software repositories to access packages.</p>
-	<p>"yum is an interactive, rpm based, package manager. It can automatically perform system updates, including dependency analysis and obsolete processing based on "repository" metadata. It can also perform installation of new packages, removal of old packages and perform queries on the installed and/or available packages among many other commands/services (see below).
-	 yum is similar to other high level package managerslike apt-get and smart."</p>
+	
 	<div class="section">Code test</div>
 	<p>This is some code. 
 	</p>
@@ -111,32 +119,8 @@
 4) Look for some "good" references and checklists on securing Apache </p>
 		<div class="section">Random Projects</div>
 
-	<ul>
-
-	<li><h4><a href="http://www.cs.wmich.edu/~jhughes/team-eval/">Team Evaluations</a></h4></li>
-	</ul>
+	
 	</div>
-
-
-	
-
- 
-
-<!-- <ol>
-
-      <li>Browsers are inconsistent in the way they round div sizes in percent-based layouts. If the browser must render a number like 144.5px or 564.5px, they have to round it to the nearest whole number. Safari and Opera round down, Internet Explorer rounds up and Firefox rounds one column up and one down filling the container completely. These rounding issues can cause inconsistencies in some layouts. In this IECC there is a 1px negative margin to fix IE. You may move it to any of the columns (and on either the left or right) to suit your layout needs.</li>
-
-      <li>The zoom property was added to the anchor within the navigation list since, in some cases, extra white space will be rendered in IE6 and IE7. Zoom gives IE its proprietary hasLayout property to fix this issue</li>
-
-    </ol>
-
- -->
-
-	<div class="section">Things I found on the Internet"</div>
-
-	<p><a href="http://www.youtube.com/watch?v=Ws5se6wLjUY">Don't click</a></p>
-
-	
 
 	</div> <!-- end .content -->
 

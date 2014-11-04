@@ -7,8 +7,7 @@
  
   <div class="header">
 
-  <img src="images/Logo.jpg" alt="logo" name="header" align="middle" usemap="#headerMap"
-   style="background: #8090AB; display:block;" /></a>
+  
 
 
 	</div><!-- end .header -->
