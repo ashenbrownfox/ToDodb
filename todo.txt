@@ -1,2 +1,9 @@
 -Can someone create a db for user login
 -I'll implement a login system for now - Kelvin
+
+
+---------------------------------------
+1- Run the new SQL that is in the folder SQLDB. 
+2- We could start to use that DB as a starting point. 
+3- We dont need to worry about security. (probably) // 
+4- DRY and KISS. (Don't repeat yourself and Keep is simple. ) 
