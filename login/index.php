@@ -6,7 +6,7 @@ if(isset($_POST['action']))
     {
         $email = mysqli_real_escape_string($connection,$_POST['email']);
         $password = mysqli_real_escape_string($connection,$_POST['password']);
-        $strSQL = mysqli_query($connection,"select name from users where email='".$email."' and password='".md5($password)."'");
+        $strSQL = mysqli_query($connection,"select name from users where email='".$email."' and password='".$password."'");
         $Results = mysqli_fetch_array($strSQL);
 //print_r($Results);die;
         if(count($Results)>=1)

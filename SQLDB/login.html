@@ -1,0 +1,36 @@
+<html>
+	<head>
+	<title>TODO DB - LOGIN</title>
+	</head>
+	
+	<body>
+		<style>
+			#box {
+				width: 400px;
+				border: 1px dashed black;
+				margin: auto;
+			}
+			
+			input {
+				display: inline;
+				width: 100%
+			}
+		</style>
+		<div id="box">
+			<form action="login.php" method="POST">
+				<input type="text" name="email" placeholder="email" >
+				<input type="password" name="password" placeholder="password">
+				<input type="submit" value="Login" >
+			</form>
+			
+			<script>
+				function newAccount(){
+					window.location = "./createAccount.html";
+				}
+			</script>
+			<input type="button" value="Create Account" onclick="newAccount()">
+		</div>	
+	</body>
+
+
+</html>

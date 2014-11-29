@@ -1,3 +1,3 @@
 <?php
-$connection = mysqli_connect('localhost','root','root','test') or die(mysqli_error($connection));
+$connection = mysqli_connect('localhost','root','root','todoDb') or die(mysqli_error($connection));
 ?>
