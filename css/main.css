@@ -1,0 +1,21 @@
+/*
+CSS Styles for the Chat App
+ */
+
+ html,body {
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+#messages {
+	width: 500px;
+	height: 300px;
+	margin:  15px;
+	padding: 10px;
+	border: 1px solid #CCC;
+	overflow: auto;
+}
+#input{
+	padding: 15px;
+
+}
