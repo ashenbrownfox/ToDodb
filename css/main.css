@@ -19,3 +19,7 @@ CSS Styles for the Chat App
 	padding: 15px;
 
 }
+
+#feedback{
+	display: none;
+};

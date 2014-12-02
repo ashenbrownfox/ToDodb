@@ -22,18 +22,16 @@
 		echo "Successfully connected to the Database Server! <br/>";
 		$feedback[] = "";
 	}
-
+	$connection = mysqli_connect($db_host, $db_user, $db_pass);
 	if (mysqli_connect_errno()) {
     printf("Connect failed: %s\n", mysqli_connect_error());
     exit();
 	} 
-
-
 	mysqli_select_db($connection, $db_name);
 
 	if ($result = mysqli_query($connection, "SELECT DATABASE()")) {
     $row = mysqli_fetch_row($result);
-    printf("Database has been selected. Default database is %s.\n", $row[0]);
+    printf("Database has been selected. Default database is %s.<br/>", $row[0]);
     mysqli_free_result($result);
 }
 

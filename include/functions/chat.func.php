@@ -30,8 +30,5 @@ function send_msg($sender,$message,$connection){
 		return false;
 	}
 }
-//chat
-// chat Msg_ID - Primary Sender Message
 
-//checkdate(month, day, year)
 ?>

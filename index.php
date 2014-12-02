@@ -1,5 +1,6 @@
 <?php
 	require('include/core.inc.php');
+
 	if(isset($_POST['send'])){
 		if(send_msg($_POST['sender'], $_POST['message'],$connection)){
 			echo 'Message sent.';
@@ -7,6 +8,7 @@
 			echo "Message Failed.";
 		}
 	}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,32 +19,29 @@
 </head>
 <body>
 	<div id="messages">
-	<?php
-		$connection = mysqli_connect($db_host, $db_user, $db_pass);
-		$messages = get_msg($connection);
-		foreach($messages as $message){
-			echo '<strong>'.$message['sender'].'</strong>:  ';
-			echo $message['message']. '<br/><br/>';
-		}
-	?>
+	
 
 	</div><!-- messages -->
 	<div id="input">
 		<table>
-			<form action="index.php" method="post">
+			<div id="feedback"></div>
+			<form action="index.php" method="post" id="form_input">
 			<tr>
-				<td><label>Enter Name:</td></label><td><input type="text" name="sender"/></td>
+				<td><label>Enter Name:</td></label><td><input type="text" id="sender" name="sender"/></td>
 			</tr>
 			<tr>
-				<td><label>Enter Message:</label></td><td><textarea name="message" rows="8" cols="40"></textarea></td>
+				<td><label>Enter Message:</label></td><td><textarea name="message" id="message" rows="8" cols="40"></textarea></td>
 			</tr>
 			<tr>
-				<td><input type="submit" name ="send" value="Send Message!"/></td>
+				<td><input type="submit" name ="send" id="send" value="Send Message!"/></td>
 			</tr>
 		</form>
 		</table>
 	</div>
-
+<!-- JS -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/auto_chat.js"></script>
+<!--<script type="text/javascript" src="scripts/send.js"></script> -->
 </body>
 
 </html>
