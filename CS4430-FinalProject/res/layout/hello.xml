@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.example.tododb.MainTodo" >
+
+    <Button 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/todoBtn"
+        android:text="ToDo"/>
+    
+    <Button 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/doingBtn"
+        android:text="Doing"/>
+    
+    <Button 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneBtn"
+        android:text="Done"/>
+    
+    
+    <Button 
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/addTaskBtn"
+        android:text="Add Task"
+        />
+    
+    
+    
+    
+
+</LinearLayout>
