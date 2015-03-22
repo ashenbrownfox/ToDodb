@@ -1,0 +1,1 @@
+Ok this is a sample readme. I jsut merged the the chat branch to the master branch.
